@@ -6,7 +6,7 @@
   <meta property="og:image" content="images/{{ . }}.jpg">
   <title>{{ . }}</title>
 </head>
-<body style="margin: 0">
-<iframe style="width: 100%; height: 100%" src="pannellum.htm?autoLoad=true&panorama=images/{{ . }}.jpg"></iframe>
+<body style="margin: 0; overflow: hidden">
+<iframe style="position: absolute; width: 100%; height: 100%" src="pannellum.htm?autoLoad=true&panorama=images/{{ . }}.jpg"></iframe>
 </body>
 </html>
