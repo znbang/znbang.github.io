@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta property="og:title" content="{{ . }}">
-  <meta property="og:image" content="images/{{ . }}.jpg">
+  <meta property="og:image" content="http://znbang.github.io/images/{{ . }}.jpg">
   <title>{{ . }}</title>
 </head>
 <body style="margin: 0; overflow: hidden">
