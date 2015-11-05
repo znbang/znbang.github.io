@@ -7,6 +7,6 @@
   <title>{{ . }}</title>
 </head>
 <body style="margin: 0">
-<iframe src="pannellum.htm?autoLoad=true&panorama=images/{{ . }}.jpg"></iframe>
+<iframe style="width: 100%; height: 100%" src="pannellum.htm?autoLoad=true&panorama=images/{{ . }}.jpg"></iframe>
 </body>
 </html>
